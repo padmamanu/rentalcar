@@ -1,6 +1,8 @@
 package RentalCars.RentalCars;
 
-public class RentalCarsObject {
+
+
+public class RentalCarsObject  {
 	
 	String make;
 	String model;
@@ -80,9 +82,12 @@ public class RentalCarsObject {
 	public String toString(){
 	
 		return   "make: "+ make+ " model: " + model + " note: " +  note +" price: " +  price  + " discount: " +   discount+
-				"yoymaintenancecost: "+ yoymaintenancecost +"depreciation: " +depreciation;
+				"yoymaintenancecost: "+ yoymaintenancecost +"depreciation: " +depreciation  + " color :" + color;
 		
 	}
+	
+	
+
 
 	@Override
 	public int hashCode() {

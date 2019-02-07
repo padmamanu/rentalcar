@@ -3,12 +3,15 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RentalCars.RentalCars.CarsTest">
+      <class name="RentalCars.RentalCars.RentalCarsTest">
         <methods>
-          <include name="BeforeMethod"/>
-          <include name="verifyCarColror"/>
+          <include name="verifyHeightRevenu"/>
+          <include name="verifyLowestPriceCar"/>
+          <include name="verifyCarColor"/>
+          <include name="verifyLowestPriceAfterDiscount"/>
+          <include name="init"/>
         </methods>
-      </class> <!-- RentalCars.RentalCars.CarsTest -->
+      </class> <!-- RentalCars.RentalCars.RentalCarsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
